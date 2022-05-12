@@ -8,7 +8,7 @@ body{
 
 /* utils */
 .body-container{
-    max-width: 900px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
@@ -18,28 +18,37 @@ body{
     clear: both;
 }
 
+.cards-container{
+    padding-left: 35px;
+}
+
 /* intestazione */
 header{
-    margin-bottom: 50px;
+    height: 100px;
+    margin-bottom: 120px;
+    text-align: center;
 }
 
 h1{
     color: #E53270;
     text-align: center;
-    font-weight: 700px;
+    font-size: 38px;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .header-paragraph{
-    font-weight: 400px;
-    text-align: center;
+    font-weight: 400;
 }
 
 /* corpo */
 .card{
     background-color: black;
-    width: 300px;
+    width: calc(1000px / 3);
     height: 100px;
     float: left;
+    margin: 5px 5px 10px 5px;
 }
 
 .card-image{
@@ -54,7 +63,7 @@ h1{
 
 .card-name, .card-profession, .card-email{
     color: white;
-    font-size: 0.8rem;
+    font-size: 14px;
     margin-bottom: 7px;
 }
 
