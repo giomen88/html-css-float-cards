@@ -47,12 +47,19 @@ h1{
     float: left;
 }
 
+.info{
+    padding-left: 10px;
+    float: left;
+}
+
 .card-name, .card-profession, .card-email{
     color: white;
-    margin-left: 7px;
     font-size: 0.8rem;
+    margin-bottom: 7px;
 }
 
 .card-email{
-    
+    color: deepskyblue;
+    text-decoration: none;
 }
+
