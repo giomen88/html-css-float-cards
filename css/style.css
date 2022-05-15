@@ -46,7 +46,6 @@ h1{
 .card{
     background-color: black;
     width: calc(1000px / 3);
-    height: 100px;
     float: left;
     margin: 5px 5px 10px 5px;
 }
